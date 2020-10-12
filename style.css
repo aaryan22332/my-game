@@ -1,0 +1,59 @@
+h1{
+    color:red;
+    margin-left:30px;
+}
+.phone *{
+    border:solid;
+}
+
+.menu{
+    margin-right:30px;
+}
+.menu a{
+    margin-left:20px;
+}
+.phone{
+    background-color: seagreen;
+    display:flex;
+    justify-content:space-between;
+}
+.aaryan{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align:center;
+   
+}
+body{
+    background-color: #fd0926
+}
+
+a:link{
+    color:red
+}
+
+a:visited{
+    color:blue
+}
+.ff{
+    position:relative;
+}
+.ff p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.ff:hover p{
+opacity: 1;                                         
+}
+.ff:hover img{
+    opacity: 0.33;
+}
